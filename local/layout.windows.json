@@ -1,0 +1,107 @@
+{
+  "version": "1.1.1",
+  "windows": {
+    "main": {
+      "main": true,
+      "url": "app://editor/index.html",
+      "windowType": "dockable",
+      "x": -8,
+      "y": -8,
+      "width": 1936,
+      "height": 1056,
+      "layout": {
+        "children": [
+          {
+            "active": 0,
+            "children": [
+              "assets"
+            ],
+            "height": 929,
+            "type": "panel",
+            "width": 365
+          },
+          {
+            "active": 0,
+            "children": [
+              "hierarchy"
+            ],
+            "height": 929,
+            "type": "panel",
+            "width": 344
+          },
+          {
+            "active": 0,
+            "children": [
+              "scene"
+            ],
+            "height": 929,
+            "type": "panel",
+            "width": 542
+          },
+          {
+            "active": 1,
+            "children": [
+              "inspector",
+              "builder"
+            ],
+            "height": 929,
+            "type": "panel",
+            "width": 654
+          }
+        ],
+        "type": "dock-h"
+      },
+      "panels": [
+        "hierarchy",
+        "inspector",
+        "builder",
+        "assets",
+        "scene"
+      ]
+    }
+  },
+  "panels": {
+    "builder": {
+      "x": 627,
+      "y": 141,
+      "width": 670,
+      "height": 738
+    },
+    "sprite-editor": {
+      "x": 888,
+      "y": 426,
+      "width": 516,
+      "height": 538
+    },
+    "project-settings": {
+      "x": 612,
+      "y": 263,
+      "width": 600,
+      "height": 564
+    },
+    "timeline": {
+      "x": 611,
+      "y": 453,
+      "width": 520,
+      "height": 338
+    },
+    "preferences": {
+      "x": 662,
+      "y": 241,
+      "width": 600,
+      "height": 564
+    },
+    "ui-kit": {
+      "x": 350,
+      "y": 331,
+      "width": 816,
+      "height": 638
+    },
+    "console": {
+      "x": 752,
+      "y": 341,
+      "width": 416,
+      "height": 338
+    }
+  }
+}
